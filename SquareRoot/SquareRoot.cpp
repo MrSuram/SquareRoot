@@ -8,7 +8,7 @@ public:
     int kuadrat;
     int hasil;
 
-    int twoRoot(int x){
+    int twoRoot(int x){ //ini nambahin root pake pow
         angka = x;
 
         return pow(x,2);
