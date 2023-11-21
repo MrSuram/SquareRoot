@@ -11,12 +11,8 @@ public:
     int mySQRoot(int x, int y) { //ini method square root yang bisa di custom
         angka = x;
         kuadrat = y;
-        hasil = angka;
 
-        for (int i = 1; i < kuadrat; i++) {
-            hasil =  hasil * angka;
-        }
-        return hasil;
+        return pow(x,y);
 
 
     }
@@ -29,7 +25,7 @@ int main()
     SQRoot root;
     
 
-    cout << root.mySQRoot(16,2) <<"\n";
+    cout << root.mySQRoot(16,3) <<"\n";
     
 }
 
