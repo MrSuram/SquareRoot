@@ -42,8 +42,7 @@ int main()
     
 
     cout << root.mySQRoot(16,3) <<"\n";
-    cout << root.twoRoot(16) << "\n";
-    cout << root.threeRoot(16) << "\n";
+    
     
 }
 
