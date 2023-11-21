@@ -41,7 +41,7 @@ int main()
     SQRoot root;
     
 
-    cout << root.mySQRoot(16,3) <<"\n";
+    cout << root.mySQRoot(16,2) <<"\n";
     
     
 }
