@@ -8,6 +8,18 @@ public:
     int kuadrat;
     int hasil;
 
+    int twoRoot(int x){ //ini nambahin root pake pow
+        angka = x;
+
+        return pow(x,2);
+
+    }
+
+    int threeRoot(int x) {
+        angka = x;
+        return pow(x, 3);
+    }
+
     int mySQRoot(int x, int y) { //ini method square root yang bisa di custom
         angka = x;
         kuadrat = y;
@@ -26,6 +38,7 @@ int main()
     
 
     cout << root.mySQRoot(16,3) <<"\n";
+    
     
 }
 
